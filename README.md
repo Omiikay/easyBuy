@@ -1,4 +1,4 @@
-# easyBuy - A Simple E-commerce Platform
+# easyBuy - practice project for E-commerce platform
 
 A simplified e-commerce platform built with microservices architecture, handling product management, order processing, payment integration, and inventory control.
 
