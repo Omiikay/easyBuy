@@ -27,8 +27,8 @@ A simplified e-commerce platform built with microservices architecture, handling
   Elasticsearch aggregation queries for product analytics
 - **API Governance**  
   Spring Cloud Gateway integrated with Sentinel for:  
-  • Dynamic route-level rate limiting  
-  • Circuit breaking based on QPS thresholds
+  - Dynamic route-level rate limiting  
+  - Circuit breaking based on QPS thresholds
 - **Deployment**  
   Kubernetes deployment manifests with manual scaling configuration
   
