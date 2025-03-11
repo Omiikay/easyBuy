@@ -19,12 +19,19 @@ A simplified e-commerce platform built with microservices architecture, handling
   Optimistic locking for stock deduction, oversell prevention
 
 ### Key Technical Implementations
-- Distributed transaction coordination using Seata AT mode
-- Redis+Lua script implementation for spike sales
-- Elasticsearch aggregation for product analytics
-- Spring Cloud Gateway rate limiting & circuit breaking
-- Prometheus+Grafana monitoring with custom metrics
-- Kubernetes horizontal pod autoscaling
+- **Distributed Transactions**  
+  Seata integration with Nacos for order-inventory coordination
+- **Spike Sales Solution**  
+  Redis with Lua scripting (via Spring Data Redis) for flash sale scenarios
+- **Search Optimization**  
+  Elasticsearch aggregation queries for product analytics
+- **API Governance**  
+  Spring Cloud Gateway integrated with Sentinel for:  
+  • Dynamic route-level rate limiting  
+  • Circuit breaking based on QPS thresholds
+- **Deployment**  
+  Kubernetes deployment manifests with manual scaling configuration
+  
 
 ## Tech Stack
 
